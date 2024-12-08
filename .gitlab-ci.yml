@@ -44,7 +44,7 @@ jobs:
 
     - name: Copy credentials
       run: |
-        cp /config/github-credentials.yml /config/db.yml
+        cp config/github-credentials.yml config/db.yml
 
     - name: Set PYTHONPATH
       run: |
