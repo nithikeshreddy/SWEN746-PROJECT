@@ -1,6 +1,6 @@
 # SWEN746-GroupFour
 # PROJECT Design Documentation
-[![codecov](https://codecov.io/gh/nithikeshreddy/SWEN746-PROJECT/branch/main/graph/badge.svg?token=XKCHK5D5F4)](https://codecov.io/gh/lblain622/SWEN746-Proj)   [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) 
+[![codecov](https://codecov.io/gh/nithikeshreddy/SWEN746-PROJECT/graph/badge.svg?token=YTN042Z48P)](https://codecov.io/gh/nithikeshreddy/SWEN746-PROJECT)   [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) 
 
 > _The following template provides the headings for your Design
 > Documentation.  As you edit each section make sure you remove these
