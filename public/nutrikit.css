@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+  }
+  
+  #totalCalories {
+    font-weight: bold;
+    color: green;
+  }
+  
+  button {
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  select {
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #selectedItems {
+    height: 200px;
+  }
+  
+  

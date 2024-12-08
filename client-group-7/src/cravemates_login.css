@@ -1,0 +1,66 @@
+
+
+.login-container {
+  background-image: 'url(${backgroundImage})';
+  background-size : cover;
+  background-Position: 'center';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc; /* Light background for a friendly feel */
+}
+
+.login-form {
+  background-color: #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50; /* A modern, dark blue-gray color */
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+input {
+  width: 325px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #ff5900; /* Vibrant red for call to action */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b; /* Darker red for hover */
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9; /* Blue for links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
