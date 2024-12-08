@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NutriKit Food Planner</title>
+  <link rel="stylesheet" href="nutrikit.css">
+</head>
+<body>
+  <h1>NutriKit Food Planner</h1>
+  <h3>NutriKit allows you to select your groceries, and track your nutritional progress (good or bad)</h3>
+
+  <label for="foodCategory">Select a food category:</label>
+  <select id="foodCategory">
+    <option value="proteins">Proteins</option>
+    <option value="fruits">Fruits</option>
+    <option value="vegetables">Vegetables</option>
+    <option value="dairy">Dairy</option>
+    <option value="grains">Grains</option>
+  </select>
+
+  <div class="items-container">
+    <select id="foodList" multiple size="5"></select>
+    <div class="button-container">
+      <button id="addButton">Add ➕</button>
+      <button id="removeButton">Remove ➖</button>
+    </div>
+    <select id="selectedItems" multiple size="8"></select>
+    <p>Total Calories: <span id="totalCalories">0</span></p>
+  </div>
+
+  <script src="nutrikit.js"></script>
+
+</body>
+</html>
