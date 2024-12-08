@@ -39,12 +39,12 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r server/requirements.txt
         pip install coverage
 
     - name: Copy credentials
       run: |
-        cp /config/github-credentials.yml /config/db.yml
+        cp config/github-credentials.yml config/db.yml
 
     - name: Set PYTHONPATH
       run: |
