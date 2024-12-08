@@ -2,7 +2,7 @@ from .swen610_db_utils import *
 from datetime import datetime
 
 def rebuild_tables():
-    exec_sql_file('./schema.sql')
+    exec_sql_file('schema.sql')
     #exec_commit(users_sql)
 
 def login(email, password):
