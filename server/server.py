@@ -31,7 +31,7 @@ def main(coverage_tracer_obj: coverage.Coverage = None):
     #api.add_resource(Chat, '/Chat/<string:room_id>')  # Chat feature between users in a cooking space
 
     # Start the Flask app
-    app.run(debug=True)
+    app.run(debug=True, port=4999)
 
 if __name__ == '__main__':
     print("Loading DB and initializing tables...")
