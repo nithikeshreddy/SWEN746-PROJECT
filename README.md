@@ -217,4 +217,16 @@ https://app.diagrams.net/#G1IOUmy6L-ris5MdbeLZ-2XgavSlhCtZ2R#%7B%22pageId%22%3A%
 ### Reciepes
   ![alt text](reciepe.gif) 
 
+## Installation Requirements
+
+### Prerequisites
+- **Programming Language**: Python 3.9 or higher
+- **Frameworks**: Flask, React
+- **Database**: PostgreSQL 14
+- **Version Control**: Git
+- **Other Tools**: Node.js, npm
+
+
+
+
 
