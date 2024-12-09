@@ -205,3 +205,16 @@ https://drive.google.com/file/d/1YT0xIK81bcvwysMcXhDiFJb0tk1THE73/view?usp=shari
 ### Class Diagram
 https://drive.google.com/file/d/1IOUmy6L-ris5MdbeLZ-2XgavSlhCtZ2R/view?usp=sharing
 https://app.diagrams.net/#G1IOUmy6L-ris5MdbeLZ-2XgavSlhCtZ2R#%7B%22pageId%22%3A%22sXF_qgFIhSkNeDmUX0QF%22%7D
+
+### Signup
+![alt text](signup.gif)
+### Login
+![Login](loginn.gif)
+### Profile
+![alt text](Profile.gif)
+### Workshop
+![alt text](Workshop.gif)
+### Reciepes
+  ![alt text](reciepe.gif) 
+
+
