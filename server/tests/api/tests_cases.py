@@ -79,6 +79,15 @@ class TestExample(unittest.TestCase):
         put_rest_call(self, 'http://localhost:4999/recipes', jdata, hdr)
         result = get_rest_call(self, 'http://localhost:4999/recipes')
         self.assertIsInstance(result, list, "Result should be a list")
+    
+    def test_delete_recipe(self):
+        data = {'title': 'New Recipe', 'ingredients': 'Ingredients', 'instructions': 'Instructions'}
+        jdata = json.dumps(data)
+        hdr = {'content-type': 'application/json'}
+        post_rest_call(self, 'http://localhost:4999/recipes', jdata, hdr, expected_code=201)
+        result = get_rest_call(self, 'http://localhost:4999/recipes')
+        self.assertIsInstance(result, list, "Result should be a list")
+        # self.assertTrue(any(recipe.get('title') == 'New Recipe' for recipe in result), "Recipe should be added")
 
     def test_create_user(self):
         data = {
