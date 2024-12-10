@@ -10,6 +10,9 @@
 ## Team Information
 * Team name: Group Four
 * Team members
+  * Sedria Renee
+  * Aitan
+  * Michael
   * Nithikesh Reddy Bobbili
   * Sreeja Reddy Bobbili
 
